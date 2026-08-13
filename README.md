@@ -21,13 +21,13 @@ The goal of this project is to simulate a pick-and-place palletizing process whe
     - `wobjPaleta`: Active WorkObject updated by camera data.
 
 ## Project Structure
-- `RAPID/`: Contains the modular source code.
-  - `MainModule.mod`: Main execution cycle.
-  - `PalletLogic.mod`: HMI handler, validation, and process sequencing.
-  - `CameraSimulation.mod`: Simulation of camera offset detection.
-  - `PickPaths.mod` & `PlacePaths.mod`: Defined robot trajectories.
-- `SYSPAR/`: System configuration files.
-- `HMI/`: ScreenMaker project files for the FlexPendant interface.
+
+- `MainModule.mod` — Main execution cycle
+- `PalletLogic.mod` — HMI handler, validation, and process sequencing
+- `CameraSimulation.mod` — Simulation of camera offset detection
+- `PickPaths.mod` & `PlacePaths.mod` — Defined robot trajectories
+- `CalibData.mod` & `PalletData.mod` — Calibration and pallet data definitions
+- `*.cfg` files — RobotStudio system configuration (EIO, MMC, MOC, PROC, SIO, SYS)
 
 ## How to Run
 1. Open the project solution in **ABB RobotStudio 2026**.
